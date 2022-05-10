@@ -5,7 +5,8 @@ Title: Bivariate (Two-Dimensional) Confidence Region and Frequency Distribution
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="thisisarni@gmail.com"),
   person("Julian", "Burgos", role="aut"),
   person(c("Gregory","R."), "Warnes", role="ctb"))
-Imports: KernSmooth, MASS, sp
+Imports: graphics, grDevices,
+  KernSmooth, MASS, sp
 Suggests: cluster, lattice
 LazyData: yes
 Description: This package provides generic functions to analyze the distribution
