@@ -2,11 +2,9 @@ Package: r2d2
 Version: 1.0-0
 Date: 2014-03-31
 Title: Bivariate (Two-Dimensional) Confidence Region and Frequency Distribution
-Authors@R: c(person("Arni", "Magnusson", role="aut"),
-  person("Julian", "Burgos", role=c("aut","cre"), email="julian@hafro.is"),
+Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="thisisarni@gmail.com"),
+  person("Julian", "Burgos", role="aut"),
   person(c("Gregory","R."), "Warnes", role="ctb"))
-Author: Arni Magnusson [aut], Julian Burgos [aut, cre], Gregory R. Warnes [ctb]
-Maintainer: Julian Burgos <julian@hafro.is>
 Imports: KernSmooth, MASS, sp
 Suggests: cluster, lattice
 LazyData: yes
