@@ -60,8 +60,8 @@ freq2d(x, \dots)
   \code{\link{cut}}, \code{\link{table}}, and \code{\link{print.table}}
   are the basic underlying functions.
 
-  \code{\link[gplots]{hist2d}} in the \pkg{gplots} package is a related
-  function with graphical capabilities.
+  \code{hist2d} in the \pkg{gplots} package is a related function with
+  graphical capabilities.
 
   \code{\link{conf2d}} calculates a bivariate empirical confidence
   region, a smooth polygon.
