@@ -61,10 +61,10 @@ conf2d_int(x, y, surf, level, n)  # internal function
   \code{\link[MASS]{kde2d}} from the \pkg{MASS} package.
 
   The \code{conf2d} function calls \code{bkde2D} or \code{kde2d} to
-  compute a smooth surface from \code{x} and {y}. If users already have
-  a smoothed surface to work from, the internal \code{conf2d_int} can be
-  used directly to find the empirical confidence region that matches
-  \code{level} best.
+  compute a smooth surface from \code{x} and \code{y}. If users already
+  have a smoothed surface to work from, the internal \code{conf2d_int}
+  can be used directly to find the empirical confidence region that
+  matches \code{level} best.
 }
 \value{
   List containing five elements:
